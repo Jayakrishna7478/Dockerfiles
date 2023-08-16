@@ -1,4 +1,3 @@
-FROM centos:8
+FROM almalinux:8
 RUN yum update -y
-RUN yum install epel-release -y
 RUN yum install ngnix -y
