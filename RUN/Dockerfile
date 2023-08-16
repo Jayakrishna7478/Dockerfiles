@@ -1,3 +1,4 @@
 FROM centos:8
 RUN yum update -y
-RUN dnf install ngnix -y
+RUN yum install epel-release -y
+RUN yum install ngnix -y
