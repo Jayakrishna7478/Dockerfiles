@@ -1,2 +1,2 @@
 FROM centos:8
-RUN yum install ngnix -y
+RUN dnf install ngnix -y
